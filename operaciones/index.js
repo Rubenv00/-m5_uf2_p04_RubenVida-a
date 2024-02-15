@@ -6,6 +6,13 @@
  */
 function suma(...valors) {
 
+    let resultado = valors[0];
+    for (let i = 1; i < valors.length; i++) {
+        resultado += valors[i];
+
+    }
+    return resultado;
+
 }
 
 
@@ -24,6 +31,7 @@ function multiplica(...valors) {
     }
  
     return resultado;
+    
 
 }
 
