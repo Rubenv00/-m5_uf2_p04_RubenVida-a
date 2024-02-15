@@ -22,7 +22,7 @@ function multiplica(...valors) {
     for (let i = 1; i < valors.length; i++) {
         resultado *= valors[i];        
     }
-
+ 
     return resultado;
 
 }
