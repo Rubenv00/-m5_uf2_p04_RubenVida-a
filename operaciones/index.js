@@ -17,7 +17,18 @@ function suma(...valors) {
  */
 function multiplica(...valors) {
 
+    let resultado = valors[0];
+
+    for (let i = 1; i < valors.length; i++) {
+        resultado *= valors[i];        
+    }
+
+    return resultado;
+
 }
+
+console.log(multiplica(2,2,2));
+
 
 module.exports.suma = suma;
 module.exports.multiplica = multiplica;
