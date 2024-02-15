@@ -12,7 +12,7 @@ function suma(...valors) {
 
     }
     return resultado;
-    
+
 }
 
 
@@ -31,6 +31,7 @@ function multiplica(...valors) {
     }
 
     return resultado;
+    
 
 }
 
